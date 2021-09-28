@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WebGL - Coursework Draft 1</title>
+	</head>
+	<body onload="load()">
+		<canvas id = "webgl" width=1280 height=720>
+			Your browser does not support HTML5
+		</canvas>
+		<br />
+		<i>Demo is above this text</i>
+		<br />
+		<h2>Instructions</h2>
+		<p>
+			Click, hold and drag to pan around the model.
+			<br />
+			Hold "Ctrl" whilst dragging to change your focus point.
+			<br />
+			Use the Scroll Wheel/Up and Down Arrows to zoom in and out.
+			<br />
+			Press "R" to reset your view.
+			<br /><br />
+			<ls>To Trigger Certain Animations:
+				<ul>Press "D" to open/close the door.</ul>
+				<ul>Press "T" to open/close the dumpster.</ul>
+				<ul>Press "Spacebar" to stop/start the car.</ul>
+				<ul>Press "L" to change whether the point light follows the camera.</ul>
+				<ul>Press "S" to toggle the street lights.</ul>
+				<ul></ul>
+			</ls>
+		</p>
+	    <script src="lib/webgl-utils.js"></script>
+	    <script src="lib/webgl-debug.js"></script>
+	    <script src="lib/cuon-utils.js"></script>
+	    <script src="lib/cuon-matrix.js"></script>
+	    <script src="util.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>
